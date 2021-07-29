@@ -14,8 +14,8 @@
 * 网页版前端代码
 * 图像去模糊的预测接口
 ## 产品体验：
-+ ### AIStudio版：
-+ ### 网页版：
++ ### AIStudio版：https://aistudio.baidu.com/aistudio/projectdetail/2081368?channelType=0&channel=0
++ ### 网页版：http://yelsonsg.nat300.top
 
 参考项目：
 + MPRNet：https://github.com/swz30/MPRNet
