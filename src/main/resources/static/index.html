@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>韶光</title>
+		<link rel="stylesheet" href="css/gy.css" />
+		<link rel="shortcut icon" href="avicon.ico" />
+	</head>
+
+	<body>
+		<img class="logo" src="img/图片1.png">
+		<a href="#" class="btn-shine">找回生活点滴</a>
+		<div class="main">
+			<p class="info">基于飞桨的运动图像去模糊系统【测试版】</p>
+			<p class="con">适用于由于设备与想记录的景象之间存在相对运动，拍摄的模糊照片</p>
+			<form class="container" enctype="multipart/form-data" method="post" id='formBox' name="form">
+				<a href="javascript:;" class="a-upload">
+					<input type="file" name="file" id="chooseImage"><img src="img/传输_上传.png">上传图片
+				</a>
+			</form>
+			<p class="small">仅限png、jpg</p>
+
+			<!--<img class="result" src="" alt="本系统处于测试状态，尚不稳定，用户可根据图片链接自行访问。http://yelsonsg.nat300.top/">
+			<button id="next">再次上传</button>-->
+
+		</div>
+
+		<div id="scr">
+			<div id="prt">
+				<img id="cropedBigImg" value='custom' data-address='' title="图片" />
+				<br />
+				<button id="back">取消</button>
+				<button id="change">确认</button>
+			</div>
+
+		</div>
+		<div id="preloader">
+			<div id="loader">
+
+			</div>
+		</div>
+		<div class="monfang">
+			<div class="cube">
+				<div class="front">
+					<a href="javascript:;"> </a>
+				</div>
+				<div class="back">
+					<a href="javascript:;"> </a>
+				</div>
+				<div class="right">
+					<a href="javascript:;"> </a>
+				</div>
+				<div class="left">
+					<a href="javascript:;"> </a>
+				</div>
+				<div class="top">
+					<a href="javascript:;"> </a>
+				</div>
+				<div class="bottom">
+					<a href="javascript:;"> </a>
+				</div>
+			</div>
+		</div>
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/gy.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,333 @@
+body {
+	background: url(../img/千库网_创意窗户阴影高清背景_背景编号5986847.jpg) no-repeat;
+	background-size: cover;
+}
+
+.btn-shine {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 12px 48px;
+	color: #8e8e8e;
+	background: linear-gradient(to right, #4d4d4d 0, #ebebeb 10%, #4d4d4d 20%);
+	background-position: 0;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: shine 4s linear infinite;
+	font-weight: 600;
+	font-size: 30px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+@keyframes shine {
+	0% {
+		background-position: 0;
+	}
+	/*60% {
+		background-position: 170px;
+	}*/
+	100% {
+		background-position: 250px;
+	}
+}
+
+li {
+	list-style: none;
+}
+
+.box {
+	width: 1000px;
+	height: 340px;
+	margin: 200px auto;
+	overflow: hidden;
+	transition: all .3s;
+}
+
+.box li {
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 340px;
+	transition: all .3s;
+}
+
+.box li img {
+	width: 640px;
+	height: 340px;
+}
+
+.box li .text {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.box:hover li {
+	width: 64px;
+}
+
+.box li:hover {
+	width: 640px;
+}
+
+#cropedBigImg {
+	width: 70%;
+}
+
+
+
+#prt {
+	background-color: white;
+	margin: auto;
+	width: 20%;
+	margin-top: 6%;
+	padding: 3% 5%;
+	text-align: center;
+	border-radius: 12px;
+}
+
+#scr {
+	display: none;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	position: fixed;
+	z-index: 20;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#change,#back,#next {
+	background-color: #E33E33;
+	color: white;
+	padding: 1% 2%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 3%;
+	margin-top: 8%;
+	font-size: 18px;
+}
+
+input {
+	padding: 2%;
+	background-color: white;
+	border-radius: 7px;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.a-upload {
+	padding: 8px 16px;
+	height: 50px;
+	position: relative;
+	cursor: pointer;
+	color: #888;
+	background: #fafafa;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	overflow: hidden;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	font-size: 30px;
+	width: 150px;
+	margin-top: 3%;
+}
+.a-upload img{
+	width: 20%;
+	vertical-align: bottom;
+}
+.a-upload input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer
+}
+
+.a-upload:hover {
+	color: #444;
+	background: #eee;
+	border-color: #ccc;
+	text-decoration: none
+}
+.main{
+	width: 600px;
+	height: 300px;
+	margin-left: 47%;
+	padding: 2%;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+}
+.logo{
+	margin-top: 12%;
+	margin-left: 10%;
+	width: 20%;
+}
+.info{
+	font-size: 33px;
+	color: #8e8e8e;
+	letter-spacing: 5px;
+	font-weight: 550;
+	text-align: center;
+}
+.con{
+	color: #8E8E8E;
+	text-align: center;
+}
+.small{
+	font-size: 15px;
+	color: #8e8e8e6e;
+}
+/* 大盒子 */
+.monfang {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 999;
+  perspective: 1000px;
+  bottom: 0;
+  right: 0;
+  /* 居中 */
+  transform: translate(-80%, -80%);
+}
+.cube {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* 转换3D */
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg) rotateY(-20deg) translateZ(-100px);
+  /* 设置中心点 */
+  transform-origin: center center -100px;
+  animation: around 5s cubic-bezier(0.94, -0.6, 0.45, 1.31) infinite;
+}
+.cube div {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0;
+  position: absolute;
+}
+.cube div a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: normal;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.cube .front {
+  transform: rotateX(0) translateZ(40px);
+  background-color: #8e8e8e94;
+}
+.cube .back {
+  transform: rotateY(180deg) translateZ(40px);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.cube .left {
+  transform: rotateY(-90deg) translateZ(40px);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.cube .right {
+  transform: rotateY(90deg) translateZ(40px);
+  background-color: #8e8e8e6e;
+}
+.cube .top {
+  transform: rotateX(90deg) translateZ(40px);
+  background-color: #8e8e8ec2;
+}
+.cube .bottom {
+  transform: rotateX(-90deg) translateZ(40px);
+  background-color: #8e8e8ecf;
+}
+
+@keyframes around {
+  100% {
+    transform: rotateX(-15deg) rotateY(-380deg) translateZ(-100px);
+  }
+}
+.result{
+	width: 90%;
+}
+.load{
+	background-color: #888888;
+	border-radius: 5px;
+	padding: 2% 3%;
+	border:none;
+	color: white;
+	margin-top: 2%;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #8e8e8e6e;
+    animation: spin 2s linear infinite;
+}
+#loader::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #8e8e8ec2;
+    animation: spin 3s linear infinite;
+    
+}
+#loader::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #8e8e8ecf;
+    animation:spin 1.5s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

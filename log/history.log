@@ -1,0 +1,6 @@
+2021-07-30 00:03:17.539  INFO 24008 --- [main] c.s.s.ShaoGuangDeblurApplicationTests    : Starting ShaoGuangDeblurApplicationTests using Java 1.8.0_282 on LAPTOP-EM824T0L with PID 24008 (started by Yelson Li in D:\IntelliJ_IDEA\practice_IDEA\ShaoGuang_Deblur)
+2021-07-30 00:03:17.546 DEBUG 24008 --- [main] c.s.s.ShaoGuangDeblurApplicationTests    : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 00:03:17.546  INFO 24008 --- [main] c.s.s.ShaoGuangDeblurApplicationTests    : The following profiles are active: dev
+2021-07-30 00:03:18.748  WARN 24008 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.sword.shaoguang_deblur]' package. Please check your configuration.
+2021-07-30 00:03:19.955  INFO 24008 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-07-30 00:03:22.555  INFO 24008 --- [main] c.s.s.ShaoGuangDeblurApplicationTests    : Started ShaoGuangDeblurApplicationTests in 5.458 seconds (JVM running for 6.749)

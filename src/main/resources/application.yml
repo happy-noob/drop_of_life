@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://182.92.180.36:3306/db_shaoguang?autoReconnect=true&useSSL=false&characterEncoding=utf-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: yelsonli00122
+    password: YelsonLi00122!
+
+server:
+  port: 8078
+
+logging:
+  config:
+    classpath: log4j2-spring.xml
+  level:
+    com.sword.shaoguang_deblur: DEBUG
+  file:
+    name: ./log/history.log
+
