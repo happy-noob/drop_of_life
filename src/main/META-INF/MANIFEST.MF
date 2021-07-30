@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Main-Class: com.sword.shaoguang_deblur.ShaoGuangDeblurApplication
+Class-Path: jackson-databind-2.12.4.jar javax.mail-1.6.2.jar mybatis-plu
+ s-core-3.4.1.jar tomcat-embed-el-9.0.50.jar HikariCP-4.0.3.jar lombok-1
+ .18.20.jar spring-tx-5.3.9.jar spring-core-5.3.9.jar spring-beans-5.3.9
+ .jar spring-boot-starter-2.5.3.jar spring-boot-starter-web-2.5.3.jar sp
+ ring-aop-5.3.9.jar spring-security-rsa-1.0.10.RELEASE.jar mybatis-plus-
+ 3.4.2.jar spring-webmvc-5.3.9.jar jackson-module-parameter-names-2.12.4
+ .jar spring-web-5.3.9.jar activation-1.1.jar freemarker-2.3.31.jar logb
+ ack-core-1.2.4.jar mybatis-3.5.6.jar jul-to-slf4j-1.7.32.jar spring-boo
+ t-starter-tomcat-2.5.3.jar commons-io-2.8.0.jar spring-boot-2.5.3.jar s
+ pring-boot-autoconfigure-2.5.3.jar mysql-connector-java-8.0.26.jar spri
+ ng-boot-starter-jdbc-2.5.3.jar mybatis-plus-extension-3.4.1.jar mybatis
+ -plus-generator-3.4.1.jar spring-expression-5.3.9.jar tomcat-embed-webs
+ ocket-9.0.50.jar spring-jcl-5.3.9.jar mybatis-plus-annotation-3.4.1.jar
+  log4j-to-slf4j-2.14.1.jar jakarta.validation-api-2.0.2.jar snakeyaml-1
+ .28.jar spring-context-support-5.3.9.jar spring-jdbc-5.3.9.jar bcprov-j
+ dk15on-1.60.jar jakarta.annotation-api-1.3.5.jar jbcrypt-0.4.jar spring
+ -boot-starter-logging-2.5.3.jar bcpkix-jdk15on-1.68.jar jboss-logging-3
+ .4.2.Final.jar jsqlparser-3.2.jar jackson-annotations-2.12.4.jar mybati
+ s-plus-boot-starter-3.4.2.jar spring-security-crypto-5.5.1.jar commons-
+ lang3-3.11.jar mybatis-spring-2.0.5.jar commons-codec-1.15.jar classmat
+ e-1.5.1.jar spring-boot-starter-mail-2.1.7.RELEASE.jar jackson-datatype
+ -jsr310-2.12.4.jar java-jwt-3.10.3.jar hibernate-validator-6.2.0.Final.
+ jar tomcat-embed-core-9.0.50.jar log4j-api-2.14.1.jar velocity-engine-c
+ ore-2.3.jar slf4j-api-1.7.32.jar jackson-core-2.12.4.jar spring-boot-st
+ arter-json-2.5.3.jar spring-context-5.3.9.jar jackson-datatype-jdk8-2.1
+ 2.4.jar logback-classic-1.2.4.jar
+
